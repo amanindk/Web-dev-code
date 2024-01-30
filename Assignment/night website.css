@@ -1,0 +1,122 @@
+.aa {
+  border: 1px solid white;
+  display: block;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  text-decoration: none;
+  text-align: center;
+  height: 22px;
+  width: 60px;
+  color: white;
+  position: absolute;
+  /* background-color: black; */
+  margin-left: 1170px;
+  margin-top: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* padding-top: 2px; */
+  /* align-items: center; */
+}
+.bb {
+  display: block;
+  text-decoration: none;
+  border: 0px solid blaCK;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: black;
+  height: 10px;
+  width: 100px;
+  color: white;
+  font-size: 10px;
+  padding: 10px;
+  text-align: center;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.cc {
+  font-size: 20px;
+  color: rgb(52, 223, 242);
+  text-decoration: none;
+  margin-left: 40px;
+  margin-top: 60px;
+  top: 70px;
+  /* padding-top: 200px; */
+}
+.dd {
+  margin-left: 40px;
+  margin-top: 18px;
+  font-size: 30px;
+  text-decoration: none;
+}
+.ee {
+  margin-left: 48px;
+  margin-top: 21px;
+  font-size: 18px;
+  color: white;
+}
+.ff {
+  margin-top: -22px;
+  margin-left: 49px;
+  font-size: 10px;
+  color: white;
+}
+.gg {
+  margin-left: 240px;
+  margin-top: -78px;
+  font-size: 18px;
+  color: white;
+  display: flex;
+}
+.hh {
+  margin-left: 240px;
+  margin-top: -27px;
+  font-size: 10px;
+  color: white;
+}
+.ii {
+  margin-left: 472px;
+  margin-top: -72px;
+  font-size: 18px;
+  color: white;
+}
+.jj {
+  margin-left: 474px;
+  margin-top: -13px;
+  font-size: 10px;
+  color: white;
+}
+.kk {
+  margin-top: 20px;
+  margin-left: 46px;
+  text-decoration: none;
+  font-size: 13px;
+  color: rgb(52, 223, 242);
+}
+.ll {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.mm {
+  color: white;
+  font-size: 10px;
+  margin-top: 10px;
+}
+.nn {
+  background-position: 0px;
+  margin-top: 8px;
+  margin-left: 163px;
+}
+.oo {
+  background-color: transparent;
+  /* background-image: ; */
+  /* background-position: 0px; */
+  color: purple;
+
+  margin-top: 8px;
+  margin-left: 200px;
+}

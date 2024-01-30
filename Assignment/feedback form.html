@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="feedback form.css" />
+    <style>
+      /* ul {
+        list-style-type: circle;
+        display: flex;
+        justify-content: center;
+      }
+      li::marker {
+        color: grey;
+        font-size: 30px;
+        text-align: right;
+      }
+
+      li {
+        padding: 0px 0px;
+        margin: 0 20px;
+      } */
+      textarea{
+        position: static;
+      }
+      input{
+        margin-top: 360px;
+        margin-left: 20px;
+        color: brown;
+
+      }
+      .a{
+        color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="white">
+      <h1>Feedback Form</h1>
+    </div>
+    <div class="blue"></div>
+    <div class="feedback">
+      <div class="send">
+        <h2 style="margin-left: -138px; margin-top: 10px">
+          Send us your feedback!
+        </h2>
+        
+        <p style="margin-left: -76px; margin-top: 10px">
+          Do you have a suggestion or found some bug?
+        </p>
+        <p style="margin-left: -176px; margin-top: -12px">
+          let us know in the field bellow.
+        </p>
+        <h4
+          style="color: black; margin-top: 40px;text-align: left; margin-left: 10px"
+        >
+          How was your experiance?
+        </h4>
+        <p style="margin-left: -321px; margin-top: -17px;"> &#128522 &#x1F61F &#128528</p>
+      </div>
+      <div class="experiance" >
+        <textarea style="border:transparent;width: 390px;height: 140px; background-color: lightgrey;color: grey;margin-left:3px; margin-top: 3px; " row="20" col="100" placeholder="Describe Your experiance here...."></textarea>
+      </div>
+      <input type="radio" name="f1" class="a" ><span style="color: grey;">Bug</span>
+      <input type="radio" name="f1"><span style="color: grey;">suggestion</span>
+      <input type="radio" name="f1"><span style="color: grey;">Others</span>
+
+      <div  class="button" >
+        <!-- <input class="Y" type="submit" value="Send Feedback" > -->
+        <a href="#Send Feedback">
+        <button class="Y" type="button" onclick="alert('Feedback')">Send Feedback</button></a>
+
+      </div>
+    </div>
+  </body>
+</html>

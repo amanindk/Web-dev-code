@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Food Website</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      .bgImg {
+        background-image: url("https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60");
+        /* opacity:0.5; */
+        background-color: lightgoldenrodyellow;
+        height: 600px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: light;
+      }
+    </style>
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg bg-white shadow py-3 sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="https://1000logos.net/wp-content/uploads/2021/06/Zomato-logo.png"
+            height="30px;"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Feautre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reservation">Reservation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+          </ul>
+          <button class="btn btn-brand menuButton">Order Online</button>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar Ending -->
+
+    <!-- Carousel Starting -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://www.allrecipes.com/thmb/l8pBk66tjSKHNnj_opc78m0_WAA=/1500x2000/filters:no_upscale():max_bytes(150000):strip_icc()/Chopping-vegetables-2000-def12c1f5bc147d4a60ee92825b46aab.jpg"
+            class="d-block w-100"
+            alt="..."
+            height="750px"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h1>WELCOME TO ZOMATO</h1>
+            <p>Char-grilled and flovor-filled</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://www.oscarskitchen.com/wp-content/uploads/2016/08/cooking.jpg"
+            class="d-block w-100"
+            alt="..."
+            height="750px"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h1>WELCOME TO ZOMATO</h1>
+            <p>Fresh & Tasty Food</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://spiceitupp.com/wp-content/uploads/2021/11/cooking-wok-chinese-1835369.jpg"
+            class="d-block w-100"
+            alt="..."
+            height="750px"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h1>WELCOME TO ZOMATO</h1>
+            <p>Good Quality Food and Healthy</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Carosel Ending -->
+
+    <!-- About Section start -->
+
+    <div class="container text-center mt-4" id="about">
+      <div class="row">
+        <div class="col-md-4">
+          <img
+            data-aos="flip-left"
+            src="https://thumbs.dreamstime.com/b/man-cooking-12821029.jpg"
+            style="height: 400px; width: 300px"
+          />
+        </div>
+        <div class="col-md-8">
+          <h1>About us</h1>
+          <hr />
+          <p>
+            From swanky upscale restaurants to the cosiest hidden gems serving
+            the most incredible food, Zomato covers it all. Explore menus, and
+            millions of restaurant photos and reviews from users just like you,
+            to find your next great meal. From swanky upscale restaurants to the
+            cosiest hidden gems serving the most incredible food, Zomato covers
+            it all. Explore menus, and millions of restaurant photos and reviews
+            from users just like you
+          </p>
+          <p>
+            From swanky upscale restaurants to the cosiest hidden gems serving
+            the most incredible food, Zomato covers it all. Explore menus, and
+            millions of restaurant photos and reviews from users just like you,
+            to find your next great meal. From swanky upscale restaurants to the
+            cosiest hidden gems serving the most incredible food, Zomato covers
+            it all. Explore menus, and millions of restaurant
+          </p>
+          <div class="d-grid gap-2 d-md-block text-start">
+            <button class="btn btn-primary" type="button">Explore Menu</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About Section Ending -->
+
+    <!-- marquee Section Start -->
+    <section id="menu" class="bg-light">
+      <div class="container">
+        <marquee>
+          <h1>Explore Our Menu</h1>
+        </marquee>
+        <p>
+          If menus are not kept on each cover then never put the menu in table
+          so that guest has to pick up. It could hurt guests. So, politely
+          present the menu by saying “Here is the Menu, sir”. If there is a
+          group then you should first present menu to host or any woman.
+        </p>
+      </div>
+    </section>
+
+    <!-- marquee section ending -->
+
+    <!-- button start -->
+    <div class="d-grid gap-2 d-md-block text-center">
+      <a class="btn btn-primary" href="#allitems" type="button"> All Items </a>
+      <a class="btn btn-primary" href="#breakfast" type="button"> Breakfast </a>
+      <a class="btn btn-primary" href="#lunch" type="button">Lunch</a>
+      <a class="btn btn-primary" href="#dinner" type="button"> Dinner </a>
+    </div>
+    <!-- button Ending -->
+
+    <!-- cards Starting -->
+    <div class="container">
+      <div class="row g-4 mt-4" id="allitems">
+        <div class="col md-3">
+          <div class="card h-100">
+            <img
+              data-aos="zoom-in-down"
+              src="https://hips.hearstapps.com/hmg-prod/images/classic-cheese-pizza-recipe-2-64429a0cb408b.jpg?crop=0.6666666666666667xw:1xh;center,top&resize=1200:*"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <div class="stars">
+                <span>Rated(5.5)</span>
+                <span>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i
+                    class="fa-solid fa-star-half-stroke"
+                    style="color: #000000"
+                  ></i>
+                </span>
+              </div>
+              <h3 class="card-title" href="#">Palak Pizza</h3>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col md-3">
+          <div class="card h-100">
+            <img
+              data-aos="zoom-in-down"
+              src="https://static.toiimg.com/thumb/53110049.cms?width=1200&height=900"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <div class="stars">
+                <span>Rated(5.5)</span>
+                <span>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i
+                    class="fa-solid fa-star-half-stroke"
+                    style="color: #000000"
+                  ></i>
+                </span>
+              </div>
+              <h3 class="card-title">Cheese Pizza</h3>
+              <p class="card-text">This is a short card.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col md-3">
+          <div class="card h-100">
+            <img
+              data-aos="zoom-in-down"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/800px-Eq_it-na_pizza-margherita_sep2005_sml.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <div class="stars">
+                <span>Rated(5.5)</span>
+                <span>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i
+                    class="fa-solid fa-star-half-stroke"
+                    style="color: #000000"
+                  ></i>
+                </span>
+              </div>
+              <h3 class="card-title">Tomato Pizza</h3>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col md-3">
+          <div class="card h-100">
+            <img
+              data-aos="zoom-in-down"
+              src="https://static.toiimg.com/photo/msid-87930581/87930581.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <div class="stars">
+                <span>Rated(5.5)</span>
+                <span>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i
+                    class="fa-solid fa-star-half-stroke"
+                    style="color: #000000"
+                  ></i>
+                </span>
+              </div>
+              <h3 class="card-title">Chicken Pizza</h3>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row g-4 mt-4" id="breakfast">
+        <div class="col md-3">
+          <div class="card h-100">
+            <img
+              data-aos="zoom-in-down"
+              src="https://static.toiimg.com/photo/92836913.cms"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <div class="stars">
+                <span>Rated(5.5)</span>
+                <span>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i
+                    class="fa-solid fa-star-half-stroke"
+                    style="color: #000000"
+                  ></i>
+                </span>
+              </div>
+              <h3 class="card-title">Dry Fruits</h3>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col md-3">
+          <div class="card h-100">
+            <img
+              data-aos="zoom-in-down"
+              src="https://www.eatthis.com/wp-content/uploads/sites/4/2018/11/healthy-overnight-oats.jpg?quality=82&strip=1"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <div class="stars">
+                <span>Rated(5.5)</span>
+                <span>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i
+                    class="fa-solid fa-star-half-stroke"
+                    style="color: #000000"
+                  ></i>
+                </span>
+              </div>
+              <h3 class="card-title">Fruit Shake</h3>
+              <p class="card-text">This is a short card.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col md-3">
+          <div class="card h-100">
+            <img
+              data-aos="zoom-in-down"
+              src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2021/03/11/FNK_FULL_IRISH_BREAKFAST_H_f.jpg.rend.hgtvcom.406.305.suffix/1615507355216.jpeg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <div class="stars">
+                <span>Rated(5.5)</span>
+                <span>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i
+                    class="fa-solid fa-star-half-stroke"
+                    style="color: #000000"
+                  ></i>
+                </span>
+              </div>
+              <h3 class="card-title">Irish Breakfast</h3>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col md-3">
+          <div class="card h-100">
+            <img
+              data-aos="zoom-in-down"
+              src="https://hips.hearstapps.com/hmg-prod/images/delish-breakfast-burrito-horizontaljpg-1541624805.jpg?crop=0.8889743589743591xw:1xh;center,top&resize=1200:*"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <div class="stars">
+                <span>Rated(5.5)</span>
+                <span>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i
+                    class="fa-solid fa-star-half-stroke"
+                    style="color: #000000"
+                  ></i>
+                </span>
+              </div>
+              <h3 class="card-title">Veg Roll</h3>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row g-4 mt-4" id="lunch">
+        <div class="col md-3">
+          <div class="card h-100">
+            <img
+              data-aos="zoom-in-down"
+              src="https://static.toiimg.com/photo/90934370.cms"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <div class="stars">
+                <span>Rated(5.5)</span>
+                <span>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i
+                    class="fa-solid fa-star-half-stroke"
+                    style="color: #000000"
+                  ></i>
+                </span>
+              </div>
+              <h3 class="card-title">Punjabi Thali</h3>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col md-3">
+          <div class="card h-100">
+            <img
+              data-aos="zoom-in-down"
+              src="https://5.imimg.com/data5/SELLER/Default/2022/6/ZP/TZ/IK/144143379/lunch-food-services-500x500.jpg"
+              class="card-img-top"
+              alt="..."
+              style="height: 195px"
+            />
+            <div class="card-body">
+              <div class="stars">
+                <span>Rated(5.5)</span>
+                <span>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i
+                    class="fa-solid fa-star-half-stroke"
+                    style="color: #000000"
+                  ></i>
+                </span>
+              </div>
+              <h3 class="card-title">Indian Thali</h3>
+              <p class="card-text">This is a short card.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col md-3">
+          <div class="card h-100">
+            <img
+              data-aos="zoom-in-down"
+              src="https://thekitchencommunity.org/wp-content/uploads/2021/10/quick-lunch-shutterstock_645742051-1200x900.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <div class="stars">
+                <span>Rated(5.5)</span>
+                <span>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i
+                    class="fa-solid fa-star-half-stroke"
+                    style="color: #000000"
+                  ></i>
+                </span>
+              </div>
+              <h3 class="card-title">chesse Bread</h3>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col md-3">
+          <div class="card h-100">
+            <img
+              data-aos="zoom-in-down"
+              src="https://media-cdn.tripadvisor.com/media/photo-s/18/de/30/ce/img-20190819-144555-01.jpg"
+              class="card-img-top"
+              alt="..."
+              style="height: 195px"
+            />
+            <div class="card-body">
+              <div class="stars">
+                <span>Rated(5.5)</span>
+                <span>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i
+                    class="fa-solid fa-star-half-stroke"
+                    style="color: #000000"
+                  ></i>
+                </span>
+              </div>
+              <h3 class="card-title">Tandoori Fish</h3>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row g-4 mt-4" id="dinner">
+        <div class="col md-3">
+          <div class="card" style="height: 380px">
+            <img
+              data-aos="zoom-in-down"
+              src="https://c.ndtvimg.com/2022-03/jcliv9dg_shahi-paneer_625x300_15_March_22.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=886"
+              class="card-img-top"
+              alt="..."
+              style="height: 175px"
+            />
+            <div class="Menu Information">
+              <div class="stars">
+                <span>Rated(5.5)</span>
+                <span>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i
+                    class="fa-solid fa-star-half-stroke"
+                    style="color: #000000"
+                  ></i>
+                </span>
+              </div>
+
+              <h3 class="card-title">Shahi Paneer</h3>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col md-3">
+          <div class="card" style="height: 380px">
+            <img
+              data-aos="zoom-in-down"
+              src="https://assets.kraftfoods.com/recipe_images/opendeploy/62663_640x428.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <div class="stars">
+                <span>Rated(5.5)</span>
+                <span>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i
+                    class="fa-solid fa-star-half-stroke"
+                    style="color: #000000"
+                  ></i>
+                </span>
+              </div>
+              <h3 class="card-title">Makroni</h3>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col md-3">
+          <div class="card" style="height: 380px">
+            <img
+              data-aos="zoom-in-down"
+              src="https://static.toiimg.com/thumb/91434652.cms?width=680&height=512&imgsize=120072"
+              class="card-img-top"
+              alt="..."
+              style="height: 170px"
+            />
+            <div class="card-body">
+              <div class="stars">
+                <span>Rated(5.5)</span>
+                <span>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i
+                    class="fa-solid fa-star-half-stroke"
+                    style="color: #000000"
+                  ></i>
+                </span>
+              </div>
+              <h3 class="card-title">shahi Gobhi</h3>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col md-3">
+          <div class="card" style="height: 380px">
+            <img
+              data-aos="zoom-in-down"
+              src="https://assets3.thrillist.com/v1/image/1553350/640x426/flatten;crop;webp=auto;jpeg_quality=60.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <div class="stars">
+                <span>Rated(5.5)</span>
+                <span>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i
+                    class="fa-solid fa-star-half-stroke"
+                    style="color: #000000"
+                  ></i>
+                </span>
+              </div>
+              <div class="text-center">
+                <h3 class="card-title">Palak Bhuji</h3>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- cards -Section ending -->
+
+    <!-- Baackground img starting-->
+    <div class="bgImg container-fluid mt-4">
+      <div class="header">
+        <h2 class="text-center text-white fs-1">Why To Choose Us</h2>
+        <pre class="text-white text-center">
+        Qrispy Foods manufactures and supplies food products to the retail
+        and wholesale sector across the UK, 
+        Europe and internationally.
+      </pre
+        >
+      </div>
+      <!-- background-image ending-->
+
+      <!-- cards starting -->
+
+      <div class="row text-center" id="features">
+        <div class="col-md-4">
+          <div class="card" style="--bs-card-bg: visibility: none;">
+            <div class="card-body">
+              <div
+                class="bg-warning mx-auto"
+                style="height: 100px; width: 100px"
+              >
+                <div class="wifi">
+                  <span>
+                    <i class="fa-solid fa-wifi mt-4 fs-1"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="feature p-4">
+                <h5 class="card-title text-white">Free Wifi</h5>
+                <p class="card-text text-white">
+                  You will get a collection of placeholder text. If you need
+                  more, you can determine the amount of text required by xazs
+                  entering xyz xyz
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card" style="--bs-card-bg: visibility: none;">
+            <div class="card-body">
+              <div
+                class="bg-warning mx-auto"
+                style="height: 100px; width: 100px"
+              >
+                <div class="wifi">
+                  <span>
+                    <i class="fa-regular fa-clock mt-4 fs-1"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="feature p-4">
+                <h5 class="card-title text-white">Fast Delivery</h5>
+                <p class="card-text text-white">
+                  Your most reliable partner Air Freight partner for all
+                  emergency business shipments. Guaranteed safe cargo delivery
+                  globally..
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3rd card start -->
+        <div class="col-md-4">
+          <div class="card" style="--bs-card-bg: visibility: none;">
+            <div class="card-body">
+              <div
+                class="bg-warning mx-auto"
+                style="height: 100px; width: 100px"
+              >
+                <div class="wifi">
+                  <span>
+                    <i class="fa-solid fa-award mt-4 fs-1"></i>
+                  </span>
+                </div>
+              </div>
+
+              <div class="feature p-4">
+                <h5 class="card-title text-white">Highly Rated</h5>
+                <p class="card-text text-white">
+                  There’s the common misconception that restaurants make a lot
+                  of money. It’s not true. If you look at maybe the top chef.
+                  Xyz xyz
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 3rd Card Ending -->
+      </div>
+    </div>
+
+    <!-- content starting -->
+    <div class="container mt-4" id="team">
+      <marquee>
+        <h1>Our Team Members</h1>
+      </marquee>
+      <p>
+        Teamwork is the ability to work together toward a common vision. The
+        ability to direct individual accomplishments toward organizational
+        objectives. It is the fuel that allows common people to attain uncommon
+        results.
+      </p>
+    </div>
+    <!-- content-Ending -->
+
+    <!-- cards-start -->
+
+    <div class="container">
+      <div class="row g-4">
+        <div class="col md-3">
+          <div
+            class="team-member border px-4 py-5 shadow-on-hover text-center"
+            style="height: 380px"
+          >
+            <img
+              data-aos="zoom-out-down"
+              src="https://images.unsplash.com/photo-1583394293214-28ded15ee548?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNoZWZ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60"
+              class="card-img-top"
+              alt="..."
+              height="240px"
+            />
+            <div class="card-body">
+              <h5 class="card-title mb-0 mt-4">Jon Doe</h5>
+              <p class="card-text">Main Chef</p>
+            </div>
+          </div>
+        </div>
+        <div class="col md-3">
+          <div
+            class="team-member border px-4 py-5 shadow-on-hover text-center"
+            style="height: 380px"
+          >
+            <img
+              data-aos="zoom-out-down"
+              src="https://plus.unsplash.com/premium_photo-1661266851970-7f2bf75fdc40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80"
+              class="card-img-top"
+              alt="..."
+              height="240px"
+            />
+            <div class="card-body">
+              <h5 class="card-title mt-4">Nisha Thakur</h5>
+              <p class="card-text">Senior Manager</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col md-3">
+          <div
+            class="team-member border px-4 py-5 shadow-on-hover text-center"
+            style="height: 380px"
+          >
+            <img
+              data-aos="zoom-out-down"
+              src="https://images.unsplash.com/photo-1596099804495-978b2cb87bda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              class="card-img-top"
+              alt="..."
+              height="240px"
+            />
+            <div class="card-body">
+              <h5 class="card-title mb-0 mt-4">Jazzy</h5>
+              <p class="card-text">Restourent Waiter</p>
+            </div>
+          </div>
+        </div>
+        <div class="col md-3">
+          <div
+            class="team-member border px-4 py-5 shadow-on-hover text-center"
+            style="height: 380px"
+          >
+            <img
+              data-aos="zoom-out-down"
+              src="https://media.istockphoto.com/id/1305346722/photo/young-guy-with-mobile-phone-shopping-in-hypermarket.webp?b=1&s=170667a&w=0&k=20&c=2ZTfa4tuueja8t9mUSHIE5s8_K1rkbNNOMrcyi6Kpgk="
+              class="card-img-top"
+              alt="..."
+              height="240px"
+            />
+            <div class="card-body">
+              <h5 class="card-title mb-0 mt-4">Lawn</h5>
+              <p class="card-text">Food Provider</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- cards Ending -->
+
+    <!-- Review starting -->
+    <div class="container">
+      <div class="col-12 Exmenu ms-auto mt-4">
+        <h1 class="ms-5">Our Client Saying</h1>
+        <p class="text-center">
+          Qrispy Foods manufactures and supplies food products to the retail and
+          wholesale sector across the UK, Europe and internationally.
+        </p>
+      </div>
+    </div>
+    <!-- Review Ending -->
+
+    <!-- Carousel Starting -->
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="quote-icon">
+            <i class="ri-double-quotes-l"></i>
+          </div>
+          <div class="content text-center">
+            <pre>
+              Lorem ipsum is pseudo Latin text that means nothing! Although, itmatches an ancient 
+              Latin text but the whole text is heavily altered to make it total nonsense.
+               Lorem ipsum is often used as placeholder in publishing and web design industries.
+            </pre>
+          </div>
+          <div class="text-center">
+            <img
+              class="text-center ms-2"
+              src="https://static.toiimg.com/thumb/msid-64906749,width-400,resizemode-4/64906749.jpg"
+              class="float-start"
+              alt="..."
+              style="height: 100px; width: 100px"
+            />
+            <div class="stars">
+              <span>
+                <i class="fa-solid fa-star" style="color: #000000"></i>
+                <i class="fa-solid fa-star" style="color: #000000"></i>
+                <i class="fa-solid fa-star" style="color: #000000"></i>
+                <i class="fa-solid fa-star" style="color: #000000"></i>
+                <i
+                  class="fa-solid fa-star-half-stroke"
+                  style="color: #000000"
+                ></i>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <span>
+            <i class="fa-solid fa-comment-quote"></i>
+          </span>
+          <div class="content text-center">
+            <pre>
+              As soon as you’ll type this and hit space or enter 
+              –three paragraphs of sample text (with four lines in each para) will appear in place of this command.
+               You can even control the number of paragraphs to be inserted and number of lines in each paragraph.
+         The syntax for this is:
+            </pre>
+            <div class="img">
+              <img
+                class="text-center ms-2"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmjE2gUFWTX5LAprjJUFgPItlzN8H3u9dFaA&usqp=CAU"
+                class="d-block"
+                alt="..."
+                style="height: 100px; width: 100px"
+              />
+              <div class="stars">
+                <span>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i class="fa-solid fa-star" style="color: #000000"></i>
+                  <i
+                    class="fa-solid fa-star-half-stroke"
+                    style="color: #000000"
+                  ></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Carousel Ending -->
+
+    <!-- start Booking Table -->
+    <div class="container" id="reservation">
+      <div class="table mt-4 ms-5">
+        <h1>Book Your Table</h1>
+        <p>
+          Teamwork is the ability to work together toward a common vision. The
+          ability to direct individual accomplishments toward organizational
+          objectives. It is the fuel that allows common people to attain
+          uncommon results.
+        </p>
+        <div class="container">
+          <div class="row g-4">
+            <div class="col md-2">
+              <label for="firstname" class="form-label">First Name</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="First Name"
+                aria-label="First name"
+              />
+            </div>
+            <div class="col md-2">
+              <label for="lastname" class="form-label">Last Name</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Last Name"
+                aria-label="Last name"
+              />
+            </div>
+          </div>
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" />
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword4" />
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputAddress"
+                placeholder="1234 Main St"
+              />
+            </div>
+
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">City</label>
+              <input type="text" class="form-control" id="inputCity" />
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">State</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="inputZip" />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Example textarea</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--Ending Booking Table  -->
+    <!-- start Blog post -->
+
+    <div class="blog ms-5" id="blog">
+      <div class="container">
+        <h1>Blog Posts</h1>
+        <p>
+          Teamwork is the ability to work together toward a common vision. The
+          ability to direct individual accomplishments toward organizational
+          objectives. It is the fuel that allows common people to attain
+          uncommon results.
+        </p>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col md-3">
+          <img
+            data-aos="zoom-in"
+            src="data:image/jpeg;base64,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"
+            alt="..."
+            style="height: 250px; width: 250px"
+          />
+        </div>
+        <div class="col md-3">
+          <p>Posted 25 Dec, 2022</p>
+          <h4><a href="#">How to make delicious food</a></h4>
+          <p>
+            It is the fuel that allows common people to attain uncommon results
+          </p>
+          <a href="#">Read More</a>
+        </div>
+        <div class="col md-3">
+          <img
+            data-aos="zoom-in"
+            src="https://www.thecookierookie.com/wp-content/uploads/2023/04/featured-stovetop-burgers-recipe.jpg"
+            alt="..."
+            style="height: 250px; width: 250px"
+          />
+        </div>
+        <div class="col md-3">
+          <p>Posted 25 Dec, 2022</p>
+          <h4><a href="#">How to make delicious food</a></h4>
+          <p>
+            It is the fuel that allows common people to attain uncommon results
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col md-3">
+          <img
+            data-aos="zoom-in"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCEJxm2csyxAuxb9wPhEWDwgHozcNCKkVFOw&usqp=CAU"
+            alt="..."
+            style="height: 250px; width: 250px"
+          />
+        </div>
+        <div class="col md-3">
+          <p>Posted 25 Dec, 2022</p>
+          <h4><a href="#">How to make delicious food</a></h4>
+          <p>
+            It is the fuel that allows common people to attain uncommon results
+          </p>
+          <a href="#">Read More</a>
+        </div>
+        <div class="col md-3">
+          <img
+            data-aos="zoom-in"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDzSt86vnZNnfw4LIcgjxzqmB6oDLam2b_11tcA0CSwfsgDdzp3--ll2gvrImm15lc_cU&usqp=CAU"
+            alt="..."
+            style="height: 250px; width: 250px"
+          />
+        </div>
+        <div class="col md-3">
+          <p>Posted 25 Dec, 2022</p>
+          <h4><a href="#">How to make delicious food</a></h4>
+          <p>
+            It is the fuel that allows common people to attain uncommon results
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </div>
+    <!-- Ending Blog Post -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

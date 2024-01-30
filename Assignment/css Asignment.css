@@ -1,0 +1,96 @@
+ .outside{
+    height:600px;
+    width: 600px;
+    background-color: black;
+
+ }
+ .y{
+    height: 200px;
+    width: 200px;
+    
+    background-color: red;
+    position:absolute;
+    animation: n 1s linear infinite
+}
+@keyframes n{
+    100%{
+        transform:rotate(-360deg);
+    }
+   
+}
+.a{
+    position:absolute;
+    height:200px;
+    width:200px;
+    background-color: blue;
+    z-index: 1;
+    margin-left:200px;
+    margin-top: 200px;
+    animation: a 1s linear infinite
+}
+@keyframes a{
+    100%{
+        transform:rotate(-360deg);
+    }
+}
+.b{
+    position:absolute;
+    height:200px;
+    width:200px;
+    background-color: yellow;
+    margin-left: 400px;
+    margin-top: 400px;
+    animation: b 1s linear infinite
+}
+@keyframes b{
+    100%{
+        transform:rotate(-360deg);
+    }
+   
+}
+.c{
+    position:absolute;
+    height:200px;
+    width:200px;
+    background-color: green;
+    margin-left: 400px;
+    animation: c 1s linear infinite
+}
+@keyframes c{
+    100%{
+        transform:rotate(-360deg);
+    }
+ 
+}
+   .g{
+    position:absolute;
+    height:200px;
+    width: 200px;
+    background-color:blueviolet;
+    margin-top: 400px;
+    animation: e 1s linear infinite
+}
+@keyframes e{
+    100%{
+        transform:rotate(-360deg);
+    }
+   
+
+   }
+   .d{
+    position:absolute;
+    left:195px;
+    top:195px;
+    height:200px;
+    
+    width: 200px;
+    background-color:grey;
+    animation: aman 1s linear infinite
+    /* margin-top:-200px; */
+    /* margin-left:200px; */
+   }
+   @keyframes aman{
+   100%{
+    transform:rotate(360deg);
+   }
+}

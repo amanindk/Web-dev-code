@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        color: red;
+        font-size: 50px;
+        line-height: 0.7;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <script src="loop_star_print.js"></script> -->
+    <script src="Loops_eg.js"></script>
+    <div id="display"></div>
+    <script>
+      /*
+       *
+       **
+       ***
+       ****
+       *****
+       */
+      /*
+               for (let i = 0; i <= 10; i++) {
+                 for (let j = 0; j <= i; j++) {
+                   document.write("*");
+                 }
+                 document.write("<br>");
+               }
+
+               */
+      /*
+       *
+       **
+       ***
+       ****
+       *****
+       */
+      /*
+              let i, k, j;
+              for (i = 1; i <= 5; i++) {
+                for (k = 1; k <= 5 - i; k++) {
+                  document.write("&nbsp;&nbsp;");
+                }
+                for (j = 1; j <= i; j++) {
+                  document.write("*");
+                }
+                document.write("<br>");
+              }
+              */
+      /*
+
+             */
+      let i,
+        j,
+        k,
+        l,
+        star = "";
+      for (i = 1; i <= 5; i++) {
+        for (k = 1; k <= 5 - i; k++) {
+          // document.write("&nbsp;&nbsp");
+          star += "&nbsp;&nbsp";
+        }
+
+        for (j = 1; j <= i; j++) {
+          // document.write("*");
+          star += "*";
+        }
+        for (l = 2; l <= i; l++) {
+          // document.write("*");
+          star += "*";
+        }
+        // document.write("<br>");
+        star += "*<br>";
+      }
+      document.getElementById("display").innerHTML = star;
+    </script>
+  </body>
+</html>

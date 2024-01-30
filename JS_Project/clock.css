@@ -1,0 +1,27 @@
+#my {
+  width: 500px;
+  height: 200px;
+  background-color: aquamarine;
+  outline: auto;
+  text-align: center;
+  padding-top: 200px;
+  position: relative;
+  font-size: 50px;
+  z-index: -1;
+  border-radius: 40px;
+  margin-top: 90px;
+  margin-left: 350px;
+}
+#clo {
+  width: 100px;
+  height: 40px;
+  background-color: beige;
+  outline: auto;
+  border-radius: 20px;
+  padding-top: 28px;
+  margin-top: -350px;
+
+  margin-left: 550px;
+
+  text-align: center;
+}

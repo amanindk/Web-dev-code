@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Factorial</title>
+  </head>
+  <body>
+    <script>
+      let number = prompt("Enter the number");
+      let fact = 1;
+      if (number == 0) {
+        console.log(`The Factorial of ${number} is 1 `);
+      } else if (number < 0) {
+        console.log(`The factorial of -ve number is not posible`);
+      } else {
+        for (let i = 1; i <= number; i++) {
+          fact = fact * i;
+        }
+        console.log(`The Factorial of ${number} is ${fact}`);
+      }
+    </script>
+  </body>
+</html>

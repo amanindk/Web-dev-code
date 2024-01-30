@@ -1,0 +1,74 @@
+.aa {
+  opacity: 0.3;
+  position: absolute;
+}
+.bb {
+  border: 0px solid;
+  height: 2300px;
+  width: 700px;
+  position: absolute;
+  margin-left: 300px;
+  overflow-x: clip;
+  opacity: 0.5;
+  /* filter: blur(2px); */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.c {
+  border: 0px solid;
+  background-color: skyblue;
+  height: 48px;
+  width: 250px;
+  display: block;
+  position: absolute;
+  top: 8px;
+  /* overflow: hidden; */
+
+  text-align: center;
+  left: 307px;
+
+  /* transform: skewX(-20deg); */
+  /* overflow-x: hidden; */
+}
+.dd {
+  color: rgb(9, 23, 91);
+  position: absolute;
+  top: 140px;
+  left: 515px;
+  font-size: 20px;
+}
+.ff {
+  position: absolute;
+  left: 410px;
+}
+.gg {
+  position: absolute;
+  color: white;
+  left: 515px;
+  top: 170px;
+  transform: skewX(-10deg);
+}
+.hh {
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 400px;
+}
+.ii {
+  position: absolute;
+  margin-top: 380px;
+  margin-left: 185px;
+}
+.jj {
+  position: absolute;
+  margin-top: 820px;
+  margin-left: 600px;
+}
+.kk {
+  position: absolute;
+  margin-top: 1190px;
+  margin-left: 220px;
+}
+.ll {
+  position: absolute;
+  margin-left: 420px;
+  margin-top: 1550px;
+}

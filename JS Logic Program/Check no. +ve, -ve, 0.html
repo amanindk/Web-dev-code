@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Using Math.sign()method -->
+    <script>
+      
+      function check() {
+          let value = document.getElementById("data").value;
+    //       var res = Math.sign(value);
+    if(value>0){
+        res = `${value} number is positive`
+     }else if(value<0){
+        res = `${value} is negative`
+     }else if(value==0){
+        res = `${value} value is zero`
+     }
+          document.getElementById("res").innerText = res;
+        }
+
+     
+      </script>
+  <body>
+    <input type="" name="" id="data" />
+    <br />
+    <button onclick="check()">check</button>
+    <h1 id="res"></h1>
+  </body>
+</html>

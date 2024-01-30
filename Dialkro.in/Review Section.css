@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+#testimonials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+}
+.testimonials-heading {
+  letter-spacing: 1px;
+  margin: 30px 0px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.testimonials-heading h1 {
+  font-size: 2.2rem;
+  font-weight: 500;
+  background-color: rgb(54, 34, 7);
+  color: #ffff;
+  padding: 10px 20px;
+}
+.testimonials-heading span {
+  font-size: 1.3rem;
+  color: #252525;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.testimonials-box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center;   */
+  flex-wrap: wrap;
+  width: 100%;
+}
+.testimonials-box {
+  width: 500px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 15px;
+  cursor: pointer;
+}
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.profile-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.profile {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+}
+.name-user {
+  display: flex;
+  flex-direction: column;
+}
+.name-user strong {
+  font-size: 1.1rem;
+  color: #3d3d3d;
+  letter-spacing: 0.5px;
+}
+.name-user span {
+  color: #979797;
+  font-size: 0.8rem;
+}
+.review {
+  color: #f9d71c;
+  /* margin-left: -300px; */
+}
+.box-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.client-review p {
+  font-size: 0.9rem;
+  color: #4b4b4b;
+}
+p {
+  text-align: justify;
+}
+.testimonials-box:hover {
+  transform: translateY(-10px);
+  transition: all ease 0.7s;
+}
+@media (max-width: 1060px) {
+  .testimonials-box {
+    width: 45%;
+    padding: 10px;
+  }
+}
+@media (max-width: 790px) {
+  .testimonials-box {
+    width: 100%;
+  }
+  .testimonials-heading h1 {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 340px) {
+  .box-top {
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  .review {
+    margin-top: 10px;
+  }
+}
+::selection {
+  color: #ffffff;
+  background-color: #252525;
+}

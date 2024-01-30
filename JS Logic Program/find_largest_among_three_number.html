@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>find_largest_among_three_number.</title>
+  </head>
+  <body>
+    <script>
+      function check(p, q, r) {
+        if (p >= q && p >= r) {
+          return p;
+        } else if (q >= p && q >= r) {
+          return q;
+        } else {
+          return r;
+        }
+      }
+      let a = prompt("Enter the First number");
+      let b = prompt("Enter the Second number");
+      let c = prompt("Enter the Third number");
+      //   let x = Math.max(a, b, c);
+      let x = check(a, b, c);
+      console.log(`${a},${b},${c} Maximum number ${x}`);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* a:link {
+              color: red;
+              text-decoration: none;
+            } */
+
+      a:visited,
+      a:link {
+        color: green;
+        padding: 14px 25px;
+        background-color: aqua;
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+      }
+      a:hover {
+        color: blue;
+        background-color: yellow;
+        text-decoration: underline;
+      }
+
+      a:active {
+        color: pink;
+      }
+      a.one:visited,
+      a.one:link {
+        color: white;
+        background-color: blueviolet;
+        padding: 10px 10px;
+        text-decoration: none;
+        border: 2px solid green;
+      }
+      a.one:hover,
+      a.one:active {
+        background-color: aquamarine;
+        text-decoration: underline;
+      }
+    </style>
+    <link rel="stylesheet" href="link.css" />
+  </head>
+  <body>
+    <p><a href="https://newsfeast.in/" target="_blank">hello Aman</a></p>
+    <a class="one" href="#">this is a link</a>
+  </body>
+</html>

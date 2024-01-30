@@ -1,0 +1,16 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.bulb {
+  background-color: red;
+  width: 30%;
+  height: 30%;
+}
+.bulbcontainer {
+  height: 30%;
+  width: 30%;
+  background-color: blue;
+  margin-top: 20px;
+}

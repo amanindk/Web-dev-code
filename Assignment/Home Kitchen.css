@@ -1,0 +1,334 @@
+.zz {
+  width: 100%;
+  height: 3700px;
+  background-color: #f2f2f2;
+  position: absolute;
+}
+
+.a {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  background-color: #1ac073;
+}
+.b {
+  position: absolute;
+  top: 20px;
+  left: 400px;
+}
+.image1 {
+  position: absolute;
+  top: 120px;
+  left: 750px;
+}
+.c {
+  font-family: "Trebuchet MS", sans-serif;
+  color: white;
+  margin-top: 130px;
+  margin-left: 80px;
+}
+.d {
+  font-family: "Trebuchet MS", sans-serif;
+  color: white;
+  position: absolute;
+  margin-left: 80px;
+  top: 330px;
+}
+.bb {
+  position: absolute;
+  color: white;
+  margin-top: -50px;
+  margin-left: 1150px;
+}
+.e {
+  position: absolute;
+  font-family: "Trebuchet MS", sans-serif;
+  top: 650px;
+  left: 80px;
+}
+.detail {
+  font-family: "Trebuchet MS", sans-serif;
+
+  position: absolute;
+  height: 70px;
+  width: 220px;
+}
+.pizza {
+  position: absolute;
+  border: 1px solid;
+  height: 700px;
+  width: 960px;
+  /* padding-left: 500px; */
+  /* margin-left: 200px; */
+}
+.price {
+  position: absolute;
+  top: -12px;
+  left: 180px;
+}
+.star {
+  font-family: "Trebuchet MS", sans-serif;
+
+  border-radius: 5px;
+  position: absolute;
+  width: 40px;
+  margin-top: 8px;
+  height: 20px;
+  left: 8px;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+.min {
+  border-radius: 5px;
+  position: absolute;
+  width: 63px;
+  text-align: center;
+  height: 20px;
+  font-size: 13px;
+  margin-left: 55px;
+  margin-top: 8px;
+  background-color: #f2f2f2;
+}
+.sign {
+  margin-left: 190px;
+  margin-top: 8px;
+}
+.a1 {
+  border-radius: 10px;
+  position: absolute;
+  width: 220px;
+  height: 250px;
+  background-color: #f0faf7;
+  top: 800px;
+  left: 130px;
+}
+.a2 {
+  border-radius: 10px;
+  position: absolute;
+  width: 220px;
+  height: 250px;
+  background-color: #f0faf7;
+  top: 800px;
+  left: 380px;
+}
+.a3 {
+  border-radius: 10px;
+  position: absolute;
+  width: 220px;
+  height: 250px;
+  background-color: #f0faf7;
+  top: 800px;
+  left: 630px;
+}
+.a4 {
+  border-radius: 10px;
+  position: absolute;
+  width: 220px;
+  height: 250px;
+  background-color: #f0faf7;
+  top: 800px;
+  left: 880px;
+}
+.a5 {
+  border-radius: 10px;
+  position: absolute;
+  width: 220px;
+  height: 250px;
+  background-color: #f0faf7;
+  top: 1100px;
+  left: 130px;
+}
+.a6 {
+  border-radius: 10px;
+  position: absolute;
+  width: 220px;
+  height: 250px;
+  background-color: #f0faf7;
+  top: 1100px;
+  left: 380px;
+}
+.a7 {
+  border-radius: 10px;
+  position: absolute;
+  width: 220px;
+  height: 250px;
+  background-color: #f0faf7;
+  top: 1100px;
+  left: 630px;
+}
+.a8 {
+  border-radius: 10px;
+  position: absolute;
+  width: 220px;
+  height: 250px;
+  background-color: #f0faf7;
+  top: 1100px;
+  left: 880px;
+}
+.a9 {
+  border-radius: 10px;
+  position: absolute;
+  width: 220px;
+  height: 250px;
+  background-color: #f0faf7;
+  top: 1400px;
+  left: 130px;
+}
+.a10 {
+  border-radius: 10px;
+  position: absolute;
+  width: 220px;
+  height: 250px;
+  background-color: #f0faf7;
+  top: 1400px;
+  left: 380px;
+}
+.a11 {
+  border-radius: 10px;
+  position: absolute;
+  width: 220px;
+  height: 250px;
+  background-color: #f0faf7;
+  top: 1400px;
+  left: 630px;
+}
+.a12 {
+  border-radius: 10px;
+  position: absolute;
+  width: 220px;
+  height: 250px;
+  background-color: #f0faf7;
+  top: 1400px;
+  left: 880px;
+}
+.f {
+  font-family: "Trebuchet MS", sans-serif;
+  position: absolute;
+  margin-top: 1740px;
+  margin-left: 510px;
+}
+.a13 {
+  border-radius: 10px;
+  position: absolute;
+  width: 220px;
+  height: 250px;
+  background-color: #f0faf7;
+  top: 1830px;
+  left: 260px;
+}
+.a14 {
+  border-radius: 10px;
+  position: absolute;
+  width: 220px;
+  height: 250px;
+  background-color: #f0faf7;
+  top: 1830px;
+  left: 520px;
+}
+.a15 {
+  border-radius: 10px;
+  position: absolute;
+  width: 220px;
+  height: 250px;
+  background-color: #f0faf7;
+  top: 1830px;
+  left: 780px;
+}
+.leftarrow {
+  color: #1ac073;
+  position: absolute;
+  font-size: 50px;
+  top: 1880px;
+  left: 100px;
+}
+.leftarrow1 {
+  color: #1ac073;
+  position: absolute;
+  font-size: 30px;
+
+  top: 1912px;
+  left: 110px;
+}
+.rightarrow {
+  color: #1ac073;
+  position: absolute;
+  font-size: 110px;
+  top: 1785px;
+  left: 1100px;
+}
+.rightarrow1 {
+  font-size: 30px;
+  position: absolute;
+  color: white;
+  top: 1918px;
+  left: 1122px;
+}
+.Request {
+  font-family: "Trebuchet MS", sans-serif;
+  color: white;
+  border-radius: 10px;
+  padding-top: 10px;
+  position: absolute;
+  height: 30px;
+  width: 170px;
+  text-align: center;
+  background-color: #1ac073;
+  left: 550px;
+  top: 2165px;
+}
+.cooked {
+  position: absolute;
+  height: 500px;
+  width: 700px;
+  font-family: "Trebuchet MS", sans-serif;
+  left: 290px;
+  text-align: center;
+  top: 2265px;
+}
+.video {
+  position: absolute;
+  top: 2535px;
+  left: 300px;
+}
+.backcolor {
+  position: absolute;
+  height: 240px;
+  width: 100%;
+  background-color: #6be6ac;
+  top: 2700px;
+}
+
+.playbutton1 {
+  position: absolute;
+  font-size: 50px;
+  /* color: #1ac073; */
+  color: #1ac073;
+  top: 87px;
+  left: 330px;
+}
+.Question {
+  position: absolute;
+  font-family: "Trebuchet MS", sans-serif;
+  top: 3000px;
+  left: 100px;
+  font-size: 13px;
+}
+.lastsubmit {
+  gap: 10px;
+  position: absolute;
+  top: 3130px;
+  left: 100px;
+  /* display: flex; */
+}
+.last {
+  position: absolute;
+  height: 150px;
+  width: 100%;
+  bottom: 0px;
+  background-color: #1ac073;
+}
+.lastlink {
+  position: absolute;
+  bottom: 100px;
+  left: 400px;
+}

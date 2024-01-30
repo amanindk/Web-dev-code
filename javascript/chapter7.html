@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="chapter7.css" />
+    <style>
+      nav ul {
+        list-style-type: none;
+        display: flex;
+        /* padding: 23px; */
+        background-color: cyan;
+      }
+      li {
+        padding: 10px 20px;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      table,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <script>
+    Array.from(document.getElementsByTagName("li")).forEach((element) => {
+      element.style.background = "red";
+    });
+  </script>
+
+  <body>
+    <!-- <script src="chapter7.js"></script> -->
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Blog</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    <table>
+      <td>Home</td>
+      <tr>
+        Home1
+      </tr>
+      <tr>
+        Home2
+      </tr>
+      <tr>
+        Home3
+      </tr>
+      <tr>
+        Home4
+      </tr>
+    </table>
+  </body>
+</html>

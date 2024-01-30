@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=>, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .outside {
+        background-color: black;
+        height: 600px;
+        width: 600px;
+        animation: deep 1s linear infinite;
+      }
+      @keyframes deep {
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      .box1 {
+        background-color: blue;
+        height: 200px;
+        width: 200px;
+        margin-left: 200px;
+        z-index: 1;
+        margin-top: 200px;
+        position: absolute;
+      }
+
+      .box2 {
+        background-color: red;
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        margin-left: 400px;
+      }
+
+      .box3 {
+        background-color: rgb(255, 255, 255);
+        height: 200px;
+        width: 200px;
+        margin-top: 200px;
+        margin-left: 200px;
+
+        position: absolute;
+        animation: aman 1s linear infinite;
+      }
+      @keyframes aman {
+        100% {
+          transform: rotate(-450deg);
+        }
+      }
+      .box4 {
+        background-color: yellow;
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        margin-top: 400px;
+        margin-left: 400px;
+      }
+      .box5 {
+        background-color: purple;
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        margin-top: 400px;
+      }
+      .box6 {
+        background-color: skyblue;
+        height: 200px;
+        width: 200px;
+        position: absolute;
+      }
+    </style>
+  </head>
+
+  <body>
+    <marquee behaviour="" direction="right">
+      <div class="outside">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+        <div class="box5"></div>
+        <div class="box6"></div>
+      </div>
+    </marquee>
+  </body>
+</html>
