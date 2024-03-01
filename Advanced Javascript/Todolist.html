@@ -33,28 +33,23 @@
     <button onclick="addTodo()">Add</button>
     <ul id="todoList"></ul>
 </div>
-
 <script>
     function addTodo() {
         var todoInput = document.getElementById("todoInput");
         var todoText = todoInput.value.trim();
-
         if (todoText === "") {
             alert("Please enter a todo!");
             return;
         }
         var todoList = document.getElementById("todoList");
-
         var li = document.createElement("li");
         var checkbox = document.createElement("input");
         checkbox.type = "checkbox";
         var label = document.createElement("label");
         label.textContent = todoText;
-
         li.appendChild(checkbox);
         li.appendChild(label);
         todoList.appendChild(li);
-
         todoInput.value = "";
     }
 </script>
