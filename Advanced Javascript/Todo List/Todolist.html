@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Todo List</title>
-<style>
-    body {
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <style>
+      body {
         font-family: Arial, sans-serif;
-    }
-    .todo-container {
+      }
+      .todo-container {
         max-width: 400px;
         margin: 20px auto;
         padding: 20px;
         border: 1px solid #ccc;
         border-radius: 5px;
         background-color: #f9f9f9;
-    }
-    .todo-item {
+      }
+      .todo-item {
         display: flex;
         align-items: center;
         margin-bottom: 10px;
-    }
-    .todo-item input[type="checkbox"] {
+      }
+      .todo-item input[type="checkbox"] {
         margin-right: 10px;
-    }
-</style>
-</head>
-<body>
-<div class="todo-container">
-    <h2>Todo List</h2>
-    <input type="text" id="todoInput" placeholder="Enter todo...">
-    <button onclick="addTodo()">Add</button>
-    <ul id="todoList"></ul>
-</div>
-<script>
-    function addTodo() {
+      }
+    </style>
+  </head>
+  <body>
+    <div class="todo-container">
+      <h2>Todo List</h2>
+      <input type="text" id="todoInput" placeholder="Enter todo..." />
+      <button onclick="addTodo()">Add</button>
+      <ul id="todoList"></ul>
+    </div>
+    <script>
+      function addTodo() {
         var todoInput = document.getElementById("todoInput");
         var todoText = todoInput.value.trim();
         if (todoText === "") {
-            alert("Please enter a todo!");
-            return;
+          alert("Please enter a todo!");
+          return;
         }
         var todoList = document.getElementById("todoList");
         var li = document.createElement("li");
@@ -51,7 +51,19 @@
         li.appendChild(label);
         todoList.appendChild(li);
         todoInput.value = "";
-    }
-</script>
-</body>
+
+        // Save todo to localStorage
+        saveTodoToLocalStorage(todoText);
+      }
+
+      function saveTodoToLocalStorage(todoText) {
+        // Retrieve existing todos from localStorage
+        var todos = JSON.parse(localStorage.getItem("todos")) || [];
+        // Add the new todo to the array
+        todos.push(todoText);
+        // Save the updated array back to localStorage
+        localStorage.setItem("todos", JSON.stringify(todos));
+      }
+    </script>
+  </body>
 </html>
