@@ -1,5 +1,7 @@
 // /\l/gm = g means global and m means multiple line
 
+//go to   
+
 const regex = /used/g;
 const text =
   "Lorem ipsum may be used as a  used placeholder before the  used final copy is available.";
@@ -8,7 +10,9 @@ console.log(text.replace(regex, "USEED"));
 // Character classes
 //        .	any character except newline
 //        \w\d\s	word, digit, whitespace
-//        \W\D\S	not word, digit, whitespace 
+//        \W\D\S	not word, digit, whitespace
+
+
 //        [abc]	any of a, b, or c
 //        [^abc]	not a, b, or c
 //        [a-g]	character between a & g
