@@ -1,7 +1,7 @@
-// button.addEventListner("click", function onclick() {
-  setTimeout(function timer() {
-    console.log("you clicked the button!");
-  }, 2000);
+// button-m.addEventListner("click", function onclick() {
+setTimeout(function timer() {
+  console.log("you clicked the button!");
+}, 2000);
 // });
 
 console.log("Hi!");
