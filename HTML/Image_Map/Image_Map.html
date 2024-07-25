@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image_Map</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">Image_map</h1>
+    <h1>skndsj</h1>
+    <img
+      style="border: 1px solid"
+      src="https://easydrawingguides.com/wp-content/uploads/2022/01/Simple-House-step-by-step-drawing-tutorial-step-10.png"
+      alt="Workplace"
+      usemap="#workmap"
+      width="300px"
+      height="300px"
+    />
+    <img
+      src="https://www.w3schools.com/html/frenchfood.jpg"
+      alt="frenchfood"
+      usemap="#food"
+    />
+    <map name="workmap">
+      <area
+        shape="rect"
+        coords="40,200,75,270 "
+        href="door.html"
+        alt="window"
+        onclick="myFunction()"
+      />
+      <area
+        shape="circle"
+        coords="75,100,10"
+        href="circle.html"
+        alt=""
+        onclick="myFunction()"
+      />
+    </map>
+    <map name="food">
+      <area
+        shape="poly"
+        coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147"
+        alt="Croissant"
+        href="Poygonal.html"
+        onclick="myFunction()"
+      />
+    </map>
+    <script>
+      function myFunction() {
+        alert("You clicked the coffee cup!");
+      }
+    </script>
+  </body>
+</html>
