@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class_JS</title>
+  </head>
+  <body>
+    <button onclick="hide()">hide Element</button>
+    <h2 class="city">London</h2>
+    <p>London is the capital of England.</p>
+
+    <h2 class="city">Paris</h2>
+    <p>Paris is the capital of France.</p>
+
+    <h2 class="city">Tokyo</h2>
+    <p>Tokyo is the capital of Japan.</p>
+    <script>
+      function hide() {
+        var x = document.getElementsByClassName("city");
+        for (var i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>
