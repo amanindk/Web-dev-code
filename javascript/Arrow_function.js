@@ -122,18 +122,18 @@ const sayhello = (name, Greeting) => console.log(Greeting + "hello " + name);
 sayhello(" Aman", "Goodmorning ");
 */
 
-//Arrow function and this
-// const x = {
-//   name: "Aman",
-//   role: "FullstacK",
-//   company: "Google",
-//   show: function () {
-//     // let that = this;
-//     // console.log(this);
-//     setTimeout(() => {
-//       console.log(`The name is ${this.name}\nThe role is ${this.role}`);
-//     }, 2000);
-//   },
-// };
-// // console.log(x.name, x.role, x.company);
-// x.show();
+// Arrow function and this
+const x = {
+  name: "Aman",
+  role: "FullstacK",
+  company: "Google",
+  show: function () {
+    // let that = this;
+    // console.log(this);
+    setTimeout(() => {
+      console.log(`The name is ${this.name}\nThe role is ${this.role}`);
+    }, 2000);
+  },
+};
+// console.log(x.name, x.role, x.company);
+x.show();
