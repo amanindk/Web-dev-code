@@ -3,20 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Odd and Even Number</title>
     <script>
-      // let x = prompt("enter the no.");
-      // if (x % 2 == 0) {
-      //   console.log(`${x} is odd no.`);
-      // } else {
-      //   console.log(`${x} is even no.`);
-      // }
-      // let x = 45;
-      let x = prompt("Enter the number");
-      let res = x % 2 == 0 ? "Even" : "odd";
-      console.log(res);
+      function check() {
+        // var x = prompt("Enter the number");
+        var x = document.getElementById("data").value;
+        //if else condition
+        // if (x % 2 == 0) {
+        //   var n = `${x} is Odd number`;
+        // } else {
+        //   var n = `${x} is even number`;
+        // }
+        // console.log(n);
+        var n = x % 2 == 0 ? ` ${x} Even` : ` ${x} odd`;
+        document.getElementById("res").innerText = n;
+      }
     </script>
   </head>
-
-  <body></body>
+  <body>
+    <h1>Odd and Even Number</h1>
+    <input type="number" id="data" />
+    <button onclick="check()">check</button>
+    <h1 id="res"></h1>
+  </body>
 </html>

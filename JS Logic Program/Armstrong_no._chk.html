@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Armstrong_no._chk</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">Armstrong_no._chk</h1>
+    <script>
+      let number = prompt("Enter the number");
+      var temp = number;
+      var sum = 0;
+      var digitno = number.toString().length;
+      // alert(digitno); print no. digitno.
+
+      while (temp > 0) {
+        // 153
+        // console.log(temp);
+        digit = temp % 10;
+        // console.log(digit);
+        sum += digit ** digitno;
+        // console.log(sum);
+        temp = parseInt(temp / 10);
+        // console.log(temp);
+        // console.log("--------");
+      }
+      if (sum == number) {
+        console.log(`${number} is Armstrong Number`);
+      } else {
+        console.log(`${number} is not Armstrong Number`);
+      }
+    </script>
+  </body>
+</html>

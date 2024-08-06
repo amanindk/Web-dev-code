@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>check_no._same_last_digit</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">check_no._same_last_digit</h1>
+    <script>
+      let a = prompt("Enter the 'a' number");
+      let b = prompt("Enter the 'b' number");
+      let c = prompt("Enter the 'c' number");
+
+      let res1 = a % 10;
+      let res2 = b % 10;
+      let res3 = c % 10;
+
+      if (res1 === res2 && res1 === res3) {
+        console.log(`${a}, ${b}, ${c} are have the same last digit`);
+      } else {
+        console.log(`${a}, ${b}, ${c} are not have the same last digit`);
+      }
+    </script>
+  </body>
+</html>

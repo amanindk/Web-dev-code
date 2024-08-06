@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chk_Palindrome_use_Arrray</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">chk_Palindrome_use_Arrray</h1>
+    <script>
+      let string = prompt("Enter a string");
+      let stringArray = string.split("");
+      //   console.log(stringArray);
+      let stringReverse = stringArray.reverse();
+      //   console.log(stringReverse);
+      let newString = stringReverse.join("");
+      //   console.log(newString);
+      if (string === newString) {
+        console.log(`${newString} is Palindrome`);
+      } else {
+        console.log(`${newString} is not Palindrome`);
+      }
+    </script>
+  </body>
+</html>

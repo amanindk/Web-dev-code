@@ -1,14 +1,15 @@
-var number = prompt("Enter the number");
-var fact = 1;
-function factr(n) {
+let number = prompt("Enter the number");
+let fact = 1;
+// document.write(fact);
+function factorial(n) {
   if (n > number) {
     return;
   }
-  var tmp = fact;
+  var temp = fact;
   fact = fact * n;
-  //   console.log(tmp + " X " + n + " = " + fact);
+
   n++;
-  factr(n);
+  factorial(n);
 }
-factr(1);
-console.log(`The fact of ${number} is ${fact}`);
+factorial(1);
+document.write(`The Factorial of ${number} is ${fact}`);

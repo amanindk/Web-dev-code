@@ -3,29 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <!-- Using Math.sign()method -->
+    <title>Check +ve -ve no.</title>
     <script>
-      
       function check() {
-          let value = document.getElementById("data").value;
-    //       var res = Math.sign(value);
-    if(value>0){
-        res = `${value} number is positive`
-     }else if(value<0){
-        res = `${value} is negative`
-     }else if(value==0){
-        res = `${value} value is zero`
-     }
-          document.getElementById("res").innerText = res;
+        var value = document.getElementById("data").value;
+        // var res = Math.sign(value);  //that is method
+        if (value > 0) {
+          res = `${value} is Positive Number`;
+        } else if (value < 0) {
+          res = `${value} is Negtive Number`;
+        } else if (value == 0) {
+          res = `${value} is Zero`;
+        } else {
+          res = `${value} is not a number`;
         }
-
-     
-      </script>
+        document.getElementById("res").innerText = res;
+      }
+    </script>
+  </head>
   <body>
-    <input type="" name="" id="data" />
-    <br />
-    <button onclick="check()">check</button>
+    <h1>Check +ve -ve no.</h1>
+    <input type="number" id="data" step="any" />
+    <button onclick="check()">convert</button>
     <h1 id="res"></h1>
   </body>
 </html>
