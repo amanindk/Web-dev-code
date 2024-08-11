@@ -7,6 +7,16 @@
   </head>
   <body>
     <h1 style="text-align: center">Palindrome_Loop_use</h1>
-    <script></script>
+    <script>
+      var string = prompt("Enter a String");
+      var len = string.length;
+      var msg = "It is  Plindrome";
+      for (var i = 0; i < len / 2; i++) {
+        if (string[i] != string[len - 1 - i]) {
+          msg = `It is not Plindrome`;
+        }
+      }
+      console.log(`${string}: ${msg}`);
+    </script>
   </body>
 </html>
