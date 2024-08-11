@@ -9,3 +9,8 @@ var y = Math.sqrt(x);
 console.log(y);
 
 alert("hello");
+alert("hello");
+alert("hello");
+alert("hello");
+alert("hello");
+alert("hello");
