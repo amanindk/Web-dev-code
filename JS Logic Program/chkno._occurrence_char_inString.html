@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chkno._occurrence_char_inString</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">chkno._occurrence_char_inString</h1>
+    <script>
+      let string = prompt("Enter a String");
+      let Letter = prompt("Enter a Letter");
+      var strLen = string.length;
+      var counter = 0;
+      for (let i = 0; i < strLen; i++) {
+        if (string[i] == Letter) {
+          counter++;
+        }
+      }
+      console.log(`${string} => ${Letter} => ${counter}`);
+    </script>
+  </body>
+</html>
