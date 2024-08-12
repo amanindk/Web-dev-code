@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>String_start_&_end_with_certain_char</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">String_start_&_end_with_certain_char</h1>
+    <script>
+      let string = prompt("Enter a String");
+      console.log(string);
+      let startstr = string.startsWith("a");
+      let endstr = string.endsWith("n");
+      if (startstr == true && endstr == true) {
+        console.log(`${string} start with a and end with n `);
+      } else if (startstr == true && endstr == false) {
+        console.log(`${string} start with a `);
+      } else if (startstr == false && endstr == true) {
+        console.log(`${string} end with n `);
+      } else if (startstr == false && endstr == false) {
+        console.log(`${string} start nor with a and end neither with n `);
+      }
+      // console.log(startstr);
+      // console.log(endstr);
+    </script>
+  </body>
+</html>
