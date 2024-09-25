@@ -1,5 +1,7 @@
 let promise = new Promise(function (resolve, reject) {
-  alert("hello");
+  console.log("frrfc");
+  // ("hello");
+  // alert("hello");
   resolve(10000000);
 });
 
