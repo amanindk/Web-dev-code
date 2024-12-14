@@ -158,7 +158,7 @@ function multiply(...nums) {
 var arr = [5, 6];
 multiply(...arr); // that is spread operator
 
-// Que11: Parama vs Arguments - O/P Que/Ans
+// Que11: Parama vs Arguments - O/P Que/Ans ---------------------------------------------------------
 
 function fb(a, x, y, ...number) {
   console.log(x, y, a, number); //4 5 2 [ 6, 8, 9, 7 ]
@@ -166,6 +166,49 @@ function fb(a, x, y, ...number) {
 
 fb(2, 4, 5, 6, 8, 9, 7);
 
-// what is callbacck Function
+//Que12: what is callbacck Function ------------------------------------------------------------------------
 // A callback function is a function passed into another function as an argument,
 //  which is then invoked inside the outer function to complete some kind of routine or action.
+
+// document.addEventListener("click", function (params) {});
+
+//Que13: Arrow Functions ---------------------------------------------------------------------------------------
+const addd = (firstnum, secondnum) => {
+  return firstnum + secondnum;
+};
+
+const adddd = (firstnum, secondnum) => firstnum + secondnum;
+
+// Que13:Arrow Functionss and Regular Funtion
+//1 Syntx
+function Square(num) {
+  return num * num;
+}
+
+const SquareAAr = (num) => {
+  return num * num;
+};
+
+// 2 Implicity  'Return' Keyword
+const SquareArrow = (num) => num * num;
+
+//3 Argumnts
+function fn() {
+  console.log(arguments);
+}
+
+fn(1, 3, 2);
+
+//4 'this ' keyword
+let user = {
+  username: "Roadside Cooder",
+  Rcl: () => {
+    console.log("Scriberr to " + this.username);
+  },
+  Rcl2: () => {
+    console.log("scriber to " + this.username);
+  },
+};
+
+user.Rcl();
+user.Rcl2();
