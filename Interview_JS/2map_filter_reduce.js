@@ -86,7 +86,7 @@ Array.prototype.myReduce = function (cb) {
 };
 
 const numsred = [1, 2, 3, 4, 5, 6];
-const sum = numsred.reduce((acc, curr, i, arr) => {
+const sum = numsred.myReduce((acc, curr, i, arr) => {
   return acc + curr;
 }, 0);
 console.log(sum);
