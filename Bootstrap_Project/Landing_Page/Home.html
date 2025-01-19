@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Css/Style.css" />
+    <link rel="stylesheet" href="Css/Media.css" />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="myModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Regiter Form
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form action="" class="bannerForm p-3">
+              <h3>Book your Free class Now1</h3>
+              <p>2 days for free demo classes without paying in advance</p>
+              <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Phone</label>
+                <div class="input-group">
+                  <span class="input-group-text" id="basic-addon1">+91</span>
+                  <input type="text" class="form-control" placeholder="phone" />
+                </div>
+              </div>
+              <div class="mb-3">
+                <button
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModal"
+                >
+                  Register Now
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Book demo modal -->
+    <div
+      class="modal fade"
+      id="bookdemoModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Regiter Form
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form action="" class="bannerForm p-3">
+              <h3>Book your Free class Now1</h3>
+              <p>2 days for free demo classes without paying in advance</p>
+              <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" />
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label">Phone</label>
+                <div class="input-group">
+                  <span class="input-group-text" id="basic-addon1">+91</span>
+                  <input type="text" class="form-control" placeholder="phone" />
+                </div>
+              </div>
+              <div class="mb-3">
+                <button
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModal"
+                >
+                  Register Now
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navbar------------------------------------------------------------------------------------------ -->
+    <header
+      class="container-fluid bg-white position-sticky top-0 py-2 shadow-lg"
+    >
+      <div class="container">
+        <div class="row align-items-center">
+          <figure class="col-lg-6 col-12 text-md-start text-center mb-0 pb-0">
+            <img src="Images/wscube-tech-logo-2.svg" alt="" />
+          </figure>
+          <div class="col-lg-6">
+            <div class="btn-outer d-flex gap-2 justify-content-end">
+              <button class="btn whatsappbtn">
+                <i class="fa-brands fa-whatsapp pe-1"></i>Chat With Us
+              </button>
+              <button class="btn call">
+                <i class="fa-solid fa-phone pe-1"></i>Call Us
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Banner----------------------------------------------------------------------------------------- -->
+    <section class="container-fluid py-lg-5 py-sm-4 py-3">
+      <div class="container">
+        <div class="row justify-content-between align-items-center gy-4">
+          <div class="col-lg-6">
+            <div class="bannerContent">
+              <h1>
+                Career Opportunities<br />
+                <span>in Digital Marketing </span>
+              </h1>
+              <p>
+                Digital Marketing course so good, you only pay- after placement
+              </p>
+              <ul class="p-0 m-0">
+                <li class="mb-3">
+                  <i class="fa-solid fa-circle-check"></i>
+                  Specialization:Performance Marketing
+                </li>
+                <li class="mb-3">
+                  <i class="fa-solid fa-circle-check"></i>Min Salary of Rs 4.5
+                  LPA
+                </li>
+                <li class="mb-3">
+                  <i class="fa-solid fa-circle-check"></i>50 Seats only
+                </li>
+              </ul>
+              <div class="bannerContentBtn d-flex gap-2">
+                <button data-bs-toggle="modal" data-bs-target="#bookdemoModal">
+                  Book 2 Days Demo
+                </button>
+                <button
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModal"
+                >
+                  <i class="fa-solid fa-download"></i>Download Curriculam
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <form action="" class="bannerForm shadow-lg">
+              <h3>Book your Free class Now1</h3>
+              <p>2 days for free demo classes without paying in advance</p>
+              <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Phone</label>
+                <div class="input-group">
+                  <span class="input-group-text" id="basic-addon1">+91</span>
+                  <input type="text" class="form-control" placeholder="phone" />
+                </div>
+              </div>
+              <div class="mb-3">
+                <button>Register Now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="container shadow-lg mt-5 counterSection">
+        <div
+          class="row row-cols-lg-5 row-cols-md-4 row-cols-sm-3 row-cols-2 p-4"
+        >
+          <div class="col">
+            <h2>1000+</h2>
+            <p>Students Trained</p>
+          </div>
+          <div class="col">
+            <h2>1000+</h2>
+            <p>Students Trained</p>
+          </div>
+          <div class="col">
+            <h2>1000+</h2>
+            <p>Students Trained</p>
+          </div>
+          <div class="col">
+            <h2>1000+</h2>
+            <p>Students Trained</p>
+          </div>
+          <div class="col">
+            <h2>1000+</h2>
+            <p>Students Trained</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
