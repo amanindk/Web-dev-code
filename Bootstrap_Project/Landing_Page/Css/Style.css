@@ -81,3 +81,28 @@
   font-weight: 700;
   color: #2699fb;
 }
+
+.hightlights-section {
+  background-color: #f7faff;
+}
+.hightlights-section h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #0a2134;
+}
+.hightlights-section p {
+  font-size: 18px;
+}
+.highlightItems h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.highlightItems p {
+  font-size: 15px;
+}
+
+#navbarNav ul li a {
+  font-weight: bold;
+  margin: 15px;
+  color: #0acefe;
+}

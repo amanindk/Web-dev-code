@@ -35,6 +35,9 @@
   .bannerForm {
     padding: 20px;
   }
+  .hightlights-section h2 {
+    font-size: 28px;
+  }
 }
 
 @media (min-width: 1400px) {

@@ -25,6 +25,98 @@
     <title>Landing Page</title>
   </head>
   <body>
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-lg">
+              <a href="Home.html" class="navbar-brand">
+                <img src="Images/wscube-tech-logo-2.svg" alt="" />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#mobilemenu"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+
+            <!-- offcanvas ---------------------------------------------------------------------------------------->
+            <div
+              class="offcanvas offcanvas-start"
+              tabindex="-1"
+              id="mobilemenu"
+              aria-labelledby="offcanvasExampleLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                  <img src="Images/wscube-tech-logo-2.svg" alt="" />
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Contact</a>
+                  </li>
+                </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- navbar ---------------------------------------------------------------------------------------------------->
+    <header
+      class="container-fluid bg-white position-sticky top-0 py-2 shadow-lg"
+    >
+      <div class="container">
+        <div class="row align-items-center">
+          <figure class="col-lg-6 col-12 text-md-start text-center mb-0 pb-0">
+            <img src="Images/wscube-tech-logo-2.svg" alt="" />
+          </figure>
+          <div class="col-lg-6">
+            <div class="btn-outer d-flex gap-2 justify-content-end">
+              <button class="btn whatsappbtn">
+                <i class="fa-brands fa-whatsapp pe-1"></i>Chat With Us
+              </button>
+              <button class="btn call">
+                <i class="fa-solid fa-phone pe-1"></i>Call Us
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
     <!-- Modal -->
     <div
       class="modal fade"
@@ -134,29 +226,6 @@
       </div>
     </div>
 
-    <!-- Navbar------------------------------------------------------------------------------------------ -->
-    <header
-      class="container-fluid bg-white position-sticky top-0 py-2 shadow-lg"
-    >
-      <div class="container">
-        <div class="row align-items-center">
-          <figure class="col-lg-6 col-12 text-md-start text-center mb-0 pb-0">
-            <img src="Images/wscube-tech-logo-2.svg" alt="" />
-          </figure>
-          <div class="col-lg-6">
-            <div class="btn-outer d-flex gap-2 justify-content-end">
-              <button class="btn whatsappbtn">
-                <i class="fa-brands fa-whatsapp pe-1"></i>Chat With Us
-              </button>
-              <button class="btn call">
-                <i class="fa-solid fa-phone pe-1"></i>Call Us
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-
     <!-- Banner----------------------------------------------------------------------------------------- -->
     <section class="container-fluid py-lg-5 py-sm-4 py-3">
       <div class="container">
@@ -246,6 +315,130 @@
           <div class="col">
             <h2>1000+</h2>
             <p>Students Trained</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid hightlights-section py-5">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-12">
+            <h2>Key Hightlight of the Course</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Doloribus quo beatae, animi ad repellendus.
+            </p>
+          </div>
+          <div class="row gy-3">
+            <div class="col-lg-4 col-sm-6 col-12">
+              <div
+                class="bg-white p-3 d-flex gap-3 align-items-start highlightItems"
+              >
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbkKJ8rfvbIFPSMXW1j13GV0BVxOD4llUwcA&s"
+                  alt=""
+                  style="height: 60px; width: 50px"
+                />
+                <div>
+                  <h4>
+                    Assignment & <br />
+                    Modules Tests
+                  </h4>
+                  <p>Test your knowledge</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-12">
+              <div
+                class="bg-white p-3 d-flex gap-3 align-items-start highlightItems"
+              >
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbkKJ8rfvbIFPSMXW1j13GV0BVxOD4llUwcA&s"
+                  alt=""
+                  style="height: 60px; width: 50px"
+                />
+                <div>
+                  <h4>
+                    Industry-recognized <br />
+                    Certificate
+                  </h4>
+                  <p>Test your knowledge</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-12">
+              <div
+                class="bg-white p-3 d-flex gap-3 align-items-start highlightItems"
+              >
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL8HY4Sj7ZcNkiEh7KpYqgfIDMxnTBqbuVRoghzUIEYCd8KCID6BDD9pZWqAIyq5i6IWc&usqp=CAU"
+                  alt=""
+                  style="height: 60px; width: 50px"
+                />
+                <div>
+                  <h4>
+                    Assignment & <br />
+                    Modules Tests
+                  </h4>
+                  <p>Test your knowledge</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-12">
+              <div
+                class="bg-white p-3 d-flex gap-3 align-items-start highlightItems"
+              >
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbkKJ8rfvbIFPSMXW1j13GV0BVxOD4llUwcA&s"
+                  alt=""
+                  style="height: 60px; width: 50px"
+                />
+                <div>
+                  <h4>
+                    Assignment & <br />
+                    Modules Tests
+                  </h4>
+                  <p>Test your knowledge</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-12">
+              <div
+                class="bg-white p-3 d-flex gap-3 align-items-start highlightItems"
+              >
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbkKJ8rfvbIFPSMXW1j13GV0BVxOD4llUwcA&s"
+                  alt=""
+                  style="height: 60px; width: 50px"
+                />
+                <div>
+                  <h4>
+                    Assignment & <br />
+                    Modules Tests
+                  </h4>
+                  <p>Test your knowledge</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-12">
+              <div
+                class="bg-white p-3 d-flex gap-3 align-items-start highlightItems"
+              >
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbkKJ8rfvbIFPSMXW1j13GV0BVxOD4llUwcA&s"
+                  alt=""
+                  style="height: 60px; width: 50px"
+                />
+                <div>
+                  <h4>
+                    Assignment & <br />
+                    Modules Tests
+                  </h4>
+                  <p>Test your knowledge</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
