@@ -106,3 +106,15 @@
   margin: 15px;
   color: #0acefe;
 }
+
+.tabItemsContent ul {
+  list-style-type: none;
+}
+
+.tabSystem .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #f2f4f7;
+  color: #0a2134;
+  border-bottom: 2px solid blue;
+  border-radius: 0;
+}
