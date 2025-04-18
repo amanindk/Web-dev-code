@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hide Show</title>
+    <style></style>
+  </head>
+  <body>
+    <div id="myDiv">
+      <img src="display.png" width="400px" alt="" /><br />
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
+        perferendis ipsum, dolorem cumque aspernatur ipsam quo voluptasss
+        suscipit, ex necessitatibus cupiditate perspiciatis officiis! Laudantium
+        sed eos dolor ipsa aut sint.
+      </p>
+    </div>
+    <button id="myButton">Hide</button>
+    <script>
+      const myButton = document.getElementById("myButton");
+      const myDiv = document.getElementById("myDiv");
+
+      myButton.addEventListener("click", (event) => {
+        if (myDiv.style.display === "none") {
+          myDiv.style.display = "block";
+          myButton.style.display = "Hide";
+        } else {
+          myDiv.style.display = "none";
+          myButton.style.display = "show";
+        }
+      });
+    </script>
+  </body>
+</html>

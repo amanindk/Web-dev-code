@@ -1,0 +1,15 @@
+.box {
+  width: 500px;
+  height: 200px;
+  /* padding: 10px; */
+  margin: auto;
+  margin-top: 200px;
+  border: 1px solid saddlebrown;
+}
+.box .minibox {
+  margin: auto;
+  margin-top: -200px;
+  width: 150px;
+  height: 60px;
+  border: 1px solid saddlebrown;
+}

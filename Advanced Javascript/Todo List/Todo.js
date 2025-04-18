@@ -8,7 +8,7 @@ item.addEventListener("keyup", function (event) {
     this.value = " ";
   }
 });
-                                
+
 const addtodo = (item) => {
   const listitem = document.createElement("li");
   listitem.innerHTML = `${item}
@@ -16,10 +16,8 @@ const addtodo = (item) => {
   listitem.addEventListener("click", function () {
     this.classList.toggle("done");
   });
-
   listitem.querySelector("i").addEventListener("click", function () {
     listitem.remove();
   });
-
   todo.appendChild(listitem);
 };
