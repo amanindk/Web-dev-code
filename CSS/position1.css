@@ -1,0 +1,32 @@
+.grand-parent {
+  height: 500px;
+  width: 600px;
+  background-color: red;
+  padding: 100px;
+  margin: 100px;
+  /* position: relative; */
+}
+.parent {
+  width: 300px;
+  height: 400px;
+  background-color: green;
+  margin: 100px;
+  /* transform: translate(-10%); */
+  /* overflow: auto; */
+  position: relative;
+}
+.child {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  /* top: 10px; */
+  /* left: 10px; */
+}
+
+/* for absolute and relative work */
+/*  transform: translate(-10);  
+  position: fixed;
+*/

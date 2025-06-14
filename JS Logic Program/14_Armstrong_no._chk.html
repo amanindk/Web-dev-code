@@ -8,22 +8,18 @@
   <body>
     <h1 style="text-align: center">Armstrong_no._chk</h1>
     <script>
-      let number = prompt("Enter the number");
+      let number = prompt("Enter the Number");
       var temp = number;
+      var noofdigits = number.toString().length;
       var sum = 0;
-      var digitno = number.toString().length;
-      // alert(digitno); print no. digitno.
-
       while (temp > 0) {
-        // 153
         // console.log(temp);
-        digit = temp % 10;
+        var digit = temp % 10;
         // console.log(digit);
-        sum += digit ** digitno;
+        sum += digit ** noofdigits;
         // console.log(sum);
         temp = parseInt(temp / 10);
         // console.log(temp);
-        // console.log("--------");
       }
       if (sum == number) {
         console.log(`${number} is Armstrong Number`);
