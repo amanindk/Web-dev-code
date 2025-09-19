@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+  </head>
+  <body>
+    <script>
+      function data() {
+        let a = document.getElementById("a1").value;
+        let b = document.getElementById("b1").value;
+        let c = document.getElementById("c1").value;
+        let d = document.getElementById("d1").value;
+
+        if (a == "" || b == "" || c == "" || d == "") {
+          alert("All fields are mendatary");
+          return false;
+        } else if (b.length < 10 || b.length > 10) {
+          alert("Number should be of 10 Digits! Please Enter valid Number");
+          return false;
+        } else if (isNaN(b)) {
+          alert("Only Number are allowed! Please Enter valid Number");
+          return false;
+        } else if (c != d) {
+          alert("please check the Password");
+          return false;
+        } else {
+          true;
+        }
+      }
+    </script>
+
+    Form Validation <br />
+    <br />
+
+    <form onsubmit="return data()" action="abc.html">
+      <label for="name">Name</label>
+      <input type="text" id="a1" /> <br />
+      <br />
+      <label for="name">Contact</label>
+      <input type="phone" id="b1" /><br />
+      <br />
+
+      <label for="name">Password</label>
+      <input type="password" id="c1" /><br />
+      <br />
+      <label for="name">Password</label>
+      <input type="password" id="d1" /><br />
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>

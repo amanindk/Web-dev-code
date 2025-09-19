@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>This javascript</h1>
+    <button type="button" onclick="change()">change</button>
+    <p id="name"></p>
+    <script>
+      function change() {
+        document.getElementById("name").innerHTML = "Hello Amandeep";
+      }
+    </script>
+    <button
+      type="button"
+      onclick="document.getElementById('date').innerHTML = Date()"
+    >
+      Date
+    </button>
+    <p id="date"></p>
+  </body>
+</html>

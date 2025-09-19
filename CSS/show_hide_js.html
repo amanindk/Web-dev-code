@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hide_Show_JS</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      #panel,
+      .btn {
+        background-color: rgb(2, 97, 65);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        cursor: pointer;
+      }
+      #panel {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="btn" onclick="myfunction()">Click Show and Hide</p>
+    <p id="panel">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus blanditiis
+      consectetur et voluptatibus soluta, vel odit veniam ab distinctio. Quasi
+      atque reiciendis ipsa veritatis nesciunt accusantium. Inventore eaque
+      assumenda ut? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Consequatur eveniet neque, quos non vero unde! Consectetur, id, sit labore
+      officia excepturi, vel eaque quam sint temporibus quas quo debitis eos.
+    </p>
+    <script>
+      function myfunction() {
+        var x = document.getElementById("panel");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>
