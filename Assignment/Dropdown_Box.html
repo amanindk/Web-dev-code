@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown Box</title>
+    <style>
+      .dropdown {
+        position: relative;
+      }
+      .dropdown_content {
+        display: none;
+        padding: 14px 16px;
+        position: absolute;
+        width: 130px;
+        background-color: #f9f9f9;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      }
+      .dropdown:hover .dropdown_content {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Dropdown Box with Text</h2>
+    <p>Mouse over the text below to display the dropdown content.</p>
+    <div class="dropdown">
+      Mouse Over me!
+      <div class="dropdown_content">Hello Aman</div>
+    </div>
+  </body>
+</html>

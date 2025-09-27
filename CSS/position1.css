@@ -10,10 +10,12 @@
   width: 300px;
   height: 400px;
   background-color: green;
-  margin: 100px;
+  /* margin: 100px; */
   /* transform: translate(-10%); */
   /* overflow: auto; */
-  position: relative;
+  /* position: relative; */
+  top: 0;
+  position: absolute;
 }
 .child {
   height: 100px;
@@ -21,7 +23,7 @@
   background-color: blue;
   position: absolute;
   top: 0px;
-  left: 0;
+  ri: 0;
   /* top: 10px; */
   /* left: 10px; */
 }
