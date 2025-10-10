@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>background-image</title>
+    <style>
+      .example {
+        background-image: url(images1.jpeg), url(images.jpeg);
+        background-position: right bottom, left top;
+        background-repeat: no-repeat, repeat;
+
+        /* background: url(images1.jpeg) right bottom no-repeat,
+          url(images.jpeg) left top repeat;
+        padding: 20px; */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Multiple Background</h1>
+    <p>The following div element has two background images:</p>
+    <div class="example">
+      <h2>Main Content</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+        consequuntur, officia minima quasi dignissimos facilis accusantium amet
+        sunt alias harum ipsa aperiam consectetur ipsam tempora asperiores.
+        Minima voluptas voluptatem dolorum?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+        consequuntur, officia minima quasi dignissimos facilis accusantium amet
+        sunt alias harum ipsa aperiam consectetur ipsam tempora asperiores.
+        Minima voluptas voluptatem dolorum?
+      </p>
+    </div>
+  </body>
+</html>

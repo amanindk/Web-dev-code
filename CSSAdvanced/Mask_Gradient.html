@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mask_Image</title>
+    <style>
+      .mask1 {
+        /* -webkit-mask-image: url(W3log.jpg);
+        mask-image: url(W3log.jpg);
+        mask-repeat: no-repeat; */
+        -webkit-mask-image: linear-gradient(black, transparent);
+        mask-image: linear-gradient(black, transparent);
+      }
+      p {
+        font-size: 20px;
+        color: white;
+        padding: 20px;
+      }
+      .mask2 {
+        max-width: 600px;
+        margin-top: 200px;
+        height: 400px;
+        background: url(img_5terre_wide.jpg) no-repeat;
+        mask-image: linear-gradient(black, transparent);
+      }
+      .mask3 {
+        -webkit-mask-image: radial-gradient(
+          circle,
+          black 50%,
+          rgba(0, 0, 0, 0.5) 50%
+        );
+        mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>The mask-image Property</h1>
+
+    <p>An image with a mask layer image:</p>
+    <img
+      class="mask1"
+      src="img_5terre_wide.jpg"
+      alt=""
+      height="400"
+      width="600"
+    />
+    <div class="mask2">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam aut atque
+        amet beatae illum ipsam deleniti ducimus, itaque quam porro magnam, iste
+        repudiandae ullam et iure modi cumque eius. Voluptate?
+      </p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam aut atque
+        amet beatae illum ipsam deleniti ducimus, itaque quam porro magnam, iste
+        repudiandae ullam et iure modi cumque eius. Voluptate?
+      </p>
+    </div>
+    <h1>A radial gradient as the mask layer</h1>
+    <img
+      class="mask3"
+      src="img_5terre_wide.jpg"
+      width="600"
+      height="400"
+      alt=""
+    />
+  </body>
+</html>

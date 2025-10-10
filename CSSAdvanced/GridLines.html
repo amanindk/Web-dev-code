@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Lines</title>
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 20px;
+        background-color: rgb(34, 112, 9);
+        padding: 10px;
+      }
+      .grid-container div {
+        background-color: aliceblue;
+        text-align: center;
+        height: 50px;
+        padding: 10px;
+        font-size: 30px;
+      }
+      .item1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>The grid-column-start and grid-column-end Properties</h1>
+    <p>
+      The grid-column-start property specifies where to start a grid item. The
+      grid-column-end property specifies where to end a grid item. Place the
+      first grid item at column-line 1, and let it end on column-line 3:
+    </p>
+    <div class="grid-container">
+      <div class="item1">1</div>
+      <div class="item2">2</div>
+      <div class="item3">3</div>
+      <div class="item4">4</div>
+      <div class="item5">5</div>
+      <div class="item6">6</div>
+      <div class="item7">7</div>
+      <div class="item8">8</div>
+      <div class="item19">9</div>
+      <div class="item10">10</div>
+      <div class="item11">11</div>
+      <div class="item12">12</div>
+      <div class="item13">13</div>
+      <div class="item14">14</div>
+      <div class="item15">15</div>
+    </div>
+  </body>
+</html>

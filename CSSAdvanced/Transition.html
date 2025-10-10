@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transition</title>
+    <style>
+      .div1 {
+        background-color: aqua;
+        width: 150px;
+        height: 150px;
+        transition: width 2s, height 4s, background-color 3s, transform 2s;
+        transition-delay: 1s;
+      }
+      .div1:hover {
+        width: 300px;
+        height: 300px;
+        background-color: orange;
+        transform: rotate(180deg);
+      }
+      button {
+        width: 120px;
+        height: 40px;
+        font-size: 16px;
+        background-color: lightgray;
+        border: none;
+        border-radius: 6px;
+        transition: background-color 2s ease-out, transform 1s ease-out;
+      }
+      button:hover {
+        transform: scale(1.1);
+        background-color: lightgreen;
+      }
+      .div2 {
+        width: 200px;
+        height: 200px;
+        background-color: brown;
+        transition-property: width;
+        transition-timing-function: linear;
+        transition-duration: 2s;
+        transition-delay: 1s;
+      }
+      .div2:hover {
+        width: 300px;
+      }
+      .div3 {
+        width: 200px;
+        height: 200px;
+        background-color: brown;
+        /* transition-property: width; */
+        /* transition-timing-function: linear; */
+        /* transition-duration: 2s; */
+        /* transition-delay: 1s; */
+        transition: width linear 2s 1s;
+      }
+      .div3:hover:hover {
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center">The transition Property</h1>
+    <div class="div1"></div>
+    <h3>Transition + Transform</h3>
+    <p>Hover over the button below:</p>
+    <button>Click</button>
+    <h3>The transition Properties Specified One by One</h3>
+    <div class="div2"></div>
+    <h3>Using The transition Shorthand Property</h3>
+    <div class="div3"></div>
+  </body>
+</html>

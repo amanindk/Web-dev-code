@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Images</title>
+    <style>
+      img {
+        max-width: 100%;
+        height: auto;
+        opacity: 0.5;
+      }
+      div.polaried {
+        width: 80%;
+        margin-bottom: 25px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: white;
+      }
+      div.container {
+        text-align: center;
+        padding: 10px 20px;
+      }
+      .container1 {
+        position: relative;
+      }
+      .lefttop {
+        position: absolute;
+        top: 8px;
+        left: 12px;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center">Responsive Images</h1>
+    <img src="img_5terre_wide.jpg" alt="" width="1200" height="100" />
+    <h2>My Different Imaage</h2>
+    <div class="polaried">
+      <img src="img_5terre_wide.jpg" alt="" width="100%" />
+      <div class="container">
+        <p>Cinque Tere</p>
+      </div>
+    </div>
+    <div class="polaried">
+      <img src="lights600x400.jpg" alt="" width="100%" />
+      <div class="container">
+        <p>Nothern Lights</p>
+      </div>
+    </div>
+    <h1>Image Text</h1>
+    <div class="container1">
+      <img src="img_5terre_wide.jpg" alt="" width="600px" height="400px" />
+      <div class="lefttop">Top Left Text</div>
+    </div>
+  </body>
+</html>

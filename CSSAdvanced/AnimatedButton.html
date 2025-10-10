@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Button</title>
+    <style>
+      .button {
+        background-color: rgb(248, 118, 4);
+        color: white;
+        display: inline-block;
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        padding: 20px;
+        font-size: 28px;
+        width: 200px;
+        cursor: pointer;
+      }
+      .button span {
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      .button span::after {
+        position: absolute;
+        content: "\00bb";
+        right: -20px;
+        opacity: 0;
+        transition: 0.5s;
+      }
+      .button:hover span {
+        padding-right: 25px;
+      }
+      .button:hover span::after {
+        opacity: 1;
+        right: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Animated Button</h2>
+    <button class="button" style="vertical-align: middle">
+      <span>Hover</span>
+    </button>
+  </body>
+</html>
