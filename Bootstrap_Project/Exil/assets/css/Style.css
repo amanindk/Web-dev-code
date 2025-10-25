@@ -43,3 +43,6 @@ a {
 a:hover {
   color: var(--c-brand-light);
 }
+img {
+  max-width: 100%;
+}
